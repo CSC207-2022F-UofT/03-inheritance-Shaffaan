@@ -37,6 +37,7 @@ public class CrossbodyBag extends Bag {
 
     public CrossbodyBag(String color, int capacity, int numberOfStraps) {
         super(color, capacity);
+        // using the constructor of the super class it is automatically set
         this.numberOfStraps = numberOfStraps;
     }
 
